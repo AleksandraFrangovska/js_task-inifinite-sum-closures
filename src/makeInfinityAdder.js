@@ -3,9 +3,9 @@
 /***
  * @return {function}
  */
+
 function makeInfinityAdder() {
   const allArgs = [];
-
   const adder = (arg) => {
     if (typeof arg === 'number') {
       allArgs.push(arg);
